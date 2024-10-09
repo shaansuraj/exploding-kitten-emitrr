@@ -107,7 +107,7 @@ To run this project locally, you will need to know:
 ```
 
 ## Screenshots
-![Exploding Kitten](./src/assets/main.jpg) 
-![Exploding Kitten](./src/assets/rules.jpg) 
-![Exploding Kitten](./src/assets/login.jpg) 
-![Exploding Kitten](./src/assets/signup.jpg)
+![Exploding Kitten](./assets/main.jpg) 
+![Exploding Kitten](./assets/rules.jpg) 
+![Exploding Kitten](./assets/login.jpg) 
+![Exploding Kitten](./assets/signup.jpg)
