@@ -47,7 +47,7 @@ The application also includes features like a leaderboard to track players' scor
 - React Router for navigation
 
 ### Backend:
-- Golang (Server logic)
+- NodeJS (Server logic)
 - Redis (Database for leaderboard and game persistence)
 - JWT for authentication
 - Express (API layer)
