@@ -1,0 +1,33 @@
+/* notificationStyle.css */
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.notification.success {
+    border-color: #28a745;
+}
+
+.notification.warning {
+    border-color: #ffc107;
+}
+
+.notification.error {
+    border-color: #dc3545;
+}
+
+.notification button {
+    margin-top: 0.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #3498db;
+}

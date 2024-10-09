@@ -1,0 +1,45 @@
+/* Highscore.css */
+.highscore-cont {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Limit the width */
+    margin: 20px auto; /* Center on the page */
+    text-align: center; /* Center text */
+}
+
+.highscore-title {
+    font-size: 1.8rem; /* Larger title font */
+    color: darkblue; /* Changed to dark blue for better visibility */
+    margin-bottom: 20px; /* Space below title */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Added text shadow */
+}
+
+.highscore-list {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+}
+
+.highscore-item {
+    display: flex;
+    justify-content: space-between; /* Space between name and score */
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding around items */
+    border-bottom: 1px solid #ddd; /* Divider line */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.highscore-item:hover {
+    background-color: #f8f9fa; /* Light grey on hover */
+}
+
+.username {
+    font-weight: bold; /* Bold for username */
+    color: red; /* Changed to red */
+}
+
+.score {
+    color: green; /* Changed to green */
+}
