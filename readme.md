@@ -94,7 +94,7 @@ The application also includes features like a leaderboard to track players' scor
     URL=your_redis_url
     SECRET=your_jwt_secret
 
-### Running the Frontend
+### Running the Backend
 1. Start the Backend Server:
     ```bash
     npm run start
